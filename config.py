@@ -10,9 +10,9 @@ BOT_TOKEN = os.environ.get("6144893657:AAFtyY6jWx_-m7dYwNZgrAPfFmZhZIsVZ7I", "")
 
 FORCE_SUB = os.environ.get("https://t.me/+Tr51Cs7pcNdjNDUx", "") 
 
-DB_NAME = os.environ.get("DB_NAME","")     
+DB_NAME = os.environ.get("Lazybotuser","")     
 
-DB_URL = os.environ.get("DB_URL","")
+DB_URL = os.environ.get("https://cloud.mongodb.com/v2/63f9fec7119c4c58cde1746d#/overview","")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
