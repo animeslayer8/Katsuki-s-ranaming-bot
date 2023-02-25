@@ -15,9 +15,9 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="renamer",
-            api_id=API_ID,
-            api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
+            api_id=7165358,
+            api_hash=304228f1dc7b9c86ef1c8d83cdc5da85,
+            bot_token=6144893657:AAFtyY6jWx_-m7dYwNZgrAPfFmZhZIsVZ7I,
             workers=50,
             plugins={"root": "plugins"},
             sleep_threshold=5,
@@ -26,9 +26,9 @@ class Bot(Client):
     async def start(self):
        await super().start()
        me = await self.get_me()
-       self.mention = me.mention
+       self.mention = me.Katsuki 
        self.username = me.username 
-       self.force_channel = FORCE_SUB
+       self.force_channel = Team_Warlords 
        if FORCE_SUB:
          try:
             link = await self.export_chat_invite_link(FORCE_SUB)                  
